@@ -20,3 +20,10 @@ CREATE DATABASE studydb;
 			<version>9.0.46</version>
 		</dependency>
 ```
+###더미 데이터
+'''sql
+INSERT INTO user (userid, PASSWORD, email, address) VALUES('jeong1','1234','jeong@22','부산');
+INSERT INTO user (userid, PASSWORD, email, address) VALUES('jeong2','1234','jeong@33','부산1');
+INSERT INTO user (userid, PASSWORD, email, address) VALUES('jeong3','1234','jeong@44','부산2');
+INSERT INTO user (userid, PASSWORD, email, address) VALUES('jeong4','1234','jeong@55','부산3');
+'''
