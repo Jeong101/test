@@ -1,0 +1,21 @@
+server:
+  port: 8080
+  servlet:
+    encoding:
+      charset: UTF-8
+      
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+      
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: study
+    password: study1234
+    url: jdbc:mysql://localhost:3306/studydb
+    
+  jpa:
+    hibernate:
+      ddl-auto: create
